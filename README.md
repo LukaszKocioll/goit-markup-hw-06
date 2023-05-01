@@ -1,3 +1,3 @@
-# goit-markup-hw-05
+# goit-markup-hw-06
 
-https://lukaszkocioll.github.io/goit-markup-hw-05/
+https://lukaszkocioll.github.io/goit-markup-hw-06/

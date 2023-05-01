@@ -73,6 +73,73 @@
             <button data-modal-close class="button-close" type="button">
               x
             </button>
+            <p class="modal-title">Zostaw swoje dane w formularzu poniżej</p>
+            <form class="form-modal">
+              <div class="inputs">
+                <label class="label">
+                  Imie
+                  <div class="field-modal">
+                    <svg width="18" height="18" class="icon-modal">
+                      <use
+                        href="./images/icons.svg#icon-person-black-18dp-1"
+                      ></use>
+                    </svg>
+                    <input class="input-modal" type="text" name="imie" />
+                  </div>
+                </label>
+                <label class="label">
+                  Telefon
+                  <div class="field-modal">
+                    <svg width="18" height="18" class="icon-modal">
+                      <use
+                        href="./images/icons.svg#icon-phone-black-18dp-1"
+                      ></use>
+                    </svg>
+                    <input class="input-modal" type="text" name="telefon" />
+                  </div>
+                </label>
+                <label class="label">
+                  Email
+                  <div class="field-modal">
+                    <svg width="18" height="18" class="icon-modal">
+                      <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg>
+                    <input class="input-modal" type="text" name="email" />
+                  </div>
+                </label>
+                <label class="label-area">
+                  Komentarz
+                  <textarea
+                    rows="5"
+                    class="textarea-border"
+                    placeholder="Wprowadź tekst"
+                    type="text"
+                    name="komentarz"
+                  ></textarea>
+                </label>
+              </div>
+              <div class="checkbox-flex">
+                <div class="checkbox-control">
+                  <input
+                    class="checkbox-input"
+                    type="checkbox"
+                    name="regulamin"
+                    value="1"
+                    id="check"
+                  />
+                  <label class="checkbox-label" for="check"></label>
+                </div>
+                <div class="text-check">
+                  Oświadczam iż akceptuję&nbsp;
+                  <a class="modal-link" href="regulamin">Regulamin</a>
+                  &nbsp;i&nbsp;
+                  <a class="modal-link" href="polityka-prywatnosci">
+                    Politykę Prywatności.</a
+                  >
+                </div>
+              </div>
+              <button class="send-modal" type="submit">Wyślij</button>
+            </form>
           </div>
         </div>
         <script src="modal.js"></script>
@@ -409,6 +476,31 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="newsletter-flex">
+            <p class="newsletter">ZAPISZ SIĘ DO NEWSLETTERA</p>
+            <div class="sign-up">
+              <form>
+                <label>
+                  <input
+                    class="field-email-footer"
+                    type="text "
+                    name="newsletter"
+                    placeholder="E-mail"
+                  />
+                </label>
+              </form>
+              <button class="button-footer" type="submit">
+                Zapisz się<svg>
+                  <use
+                    class="icon-footer-news"
+                    width="20"
+                    height="20"
+                    href="images/icons.svg#icon-icon-send"
+                  ></use>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
