@@ -766,6 +766,7 @@ textarea {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  color: #2196f3;
 }
 .checkbox-control {
   position: relative;
@@ -789,7 +790,7 @@ textarea {
   display: block;
   width: 100%;
   background-color: #fff;
-  border: 1px solid #2196f3;
+  border: 1px solid #000;
   border-radius: 2px;
   cursor: pointer;
 }
